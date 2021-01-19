@@ -21,3 +21,16 @@ Less energy spent without slowing down ➕ Well designed code
 
 `Even the result is the same, live with enough caring so to consider if multiply 2x2 is better than adding 2+2`
 
+## How to test the functions without cloning/sourcing the files
+
+Copy and paste this text into your console
+
+```function gwip {
+        git add -A; git commit -m "🟢🟢🟢🟢 GREEN - $1 - to squash"
+}
+function rwip {
+        git add -A; git commit -m "🔴🔴🔴🔴 RED - $1 - to squash"
+}
+function fwip {
+        git add -A; git commit -m "👍👍👍👍 REFACTOR - $1 - to squash"
+}```
