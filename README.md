@@ -33,4 +33,22 @@ Copy and paste this text into your console
         }
         function fwip {
                 git add -A; git commit -m "👍👍👍👍 REFACTOR - $1 - to squash"
+        }       
+        function dwip {
+                git add -A; git commit -m "📖 📖 📖  DOCUMENT - $1 - to squash"
+        }
+
+## If you are using mob
+
+        function mg {
+                mob next -m "🟢🟢🟢🟢 GREEN - $1 - to squash"
+        }
+        function mr {
+                mob next -m "🔴🔴🔴🔴 RED - $1 - to squash"
+        }
+        function mf {
+                mob next -m "👍👍👍👍 REFACTOR - $1 - to squash"
+        }
+        function md {
+                mob next -m "📖 📖 📖  DOCUMENT - $1 - to squash"
         }
