@@ -40,6 +40,8 @@ Copy and paste this text into your console
 
 ## If you are using mob
 
+Mob is a mob programming cli tool [https://github.com/remotemobprogramming/mob](https://github.com/remotemobprogramming/mob)
+
         function mg {
                 mob next -m "🟢🟢🟢🟢 GREEN - $1 - to squash"
         }
