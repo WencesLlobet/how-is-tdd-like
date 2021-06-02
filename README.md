@@ -24,7 +24,8 @@ Less energy spent without slowing down ➕ Well designed code
 ## How to test the functions without cloning/sourcing the files
 
 Copy and paste this text into your console
-
+        
+        unalias gwip #it is a zsh function
         function gwip {
                 git add -A; git commit -m "🟢🟢🟢🟢 GREEN - $1 - to squash"
         }
